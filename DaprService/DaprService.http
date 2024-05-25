@@ -1,0 +1,6 @@
+@DaprService_HostAddress = http://localhost:5016
+
+GET {{DaprService_HostAddress}}/Event/
+Accept: application/json
+
+###
